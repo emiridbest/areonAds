@@ -1,12 +1,12 @@
 import React from "react";
 
 
-const NavbarItem = ({ title, classprops }) => <li>{title}</li>;
+const NavbarItem = ({ title }) => <li>{title}</li>;
 
 const Navbar = () => {
   return (
     <div className="nav">
-            <div className="header">AltheaAds</div>
+            <div className="header">AreonAds</div>
 
       <nav className="navbar">
         <ul>

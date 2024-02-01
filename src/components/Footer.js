@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css"; // Import your custom CSS file
+import "../App.css";
 
 const Footer = () => {
   const navigation = [
@@ -7,81 +7,63 @@ const Footer = () => {
       name: "GitHub",
       href: "https://github.com/emiridbest",
       icon: (props) => (
-        <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
-          {/* SVG path for the GitHub icon */}
-        </svg>
+        <svg fill="currentColor" viewBox="0 0 24 24" {...props}></svg>
       ),
     },
     {
       name: "T&C",
       href: "https://github.com/emiridbest",
       icon: (props) => (
-        <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
-          {/* SVG path for the GitHub icon */}
-        </svg>
+        <svg fill="currentColor" viewBox="0 0 24 24" {...props}></svg>
       ),
     },
     {
       name: "Feedback",
       href: "https://github.com/emiridbest",
       icon: (props) => (
-        <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
-          {/* SVG path for the GitHub icon */}
-        </svg>
+        <svg fill="currentColor" viewBox="0 0 24 24" {...props}></svg>
       ),
     },
     {
-      name: "Althea L1",
+      name: "Areon L1",
       href: "https://github.com/emiridbest",
       icon: (props) => (
-        <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
-          {/* SVG path for the GitHub icon */}
-        </svg>
+        <svg fill="currentColor" viewBox="0 0 24 24" {...props}></svg>
       ),
     },
     {
       name: "Community",
       href: "https://github.com/emiridbest",
       icon: (props) => (
-        <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
-          {/* SVG path for the GitHub icon */}
-        </svg>
+        <svg fill="currentColor" viewBox="0 0 24 24" {...props}></svg>
       ),
     },
     {
       name: "Bounties",
       href: "https://github.com/emiridbest",
       icon: (props) => (
-        <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
-          {/* SVG path for the GitHub icon */}
-        </svg>
+        <svg fill="currentColor" viewBox="0 0 24 24" {...props}></svg>
       ),
     },
     {
       name: "Developers",
       href: "https://github.com/emiridbest",
       icon: (props) => (
-        <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
-          {/* SVG path for the GitHub icon */}
-        </svg>
+        <svg fill="currentColor" viewBox="0 0 24 24" {...props}></svg>
       ),
     },
     {
       name: "Proposals",
       href: "https://github.com/emiridbest",
       icon: (props) => (
-        <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
-          {/* SVG path for the GitHub icon */}
-        </svg>
+        <svg fill="currentColor" viewBox="0 0 24 24" {...props}></svg>
       ),
     },
     {
       name: "Validators",
       href: "https://github.com/emiridbest",
       icon: (props) => (
-        <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
-          {/* SVG path for the GitHub icon */}
-        </svg>
+        <svg fill="currentColor" viewBox="0 0 24 24" {...props}></svg>
       ),
     },
   ];
