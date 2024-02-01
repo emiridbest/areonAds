@@ -63,7 +63,7 @@ const App = () => {
         window.addEventListener('DOMContentLoaded', (event) => {
           const adContainer = document.getElementById('ad-container');
           if(adContainer){
-            adContainer.innerHTML = '<iframe src="${url}" width="600" height="500"></iframe>';
+            adContainer.innerHTML = '<iframe src="${url}" width="600" height="300"></iframe>';
           }
         });
       </script>`;
@@ -154,7 +154,7 @@ const App = () => {
                 />
               </div>{" "}
               <div className="comp">
-                <p className="token">Art Token Balance: {artBalance}</p>
+                <p className="token">ART Token Balance: {artBalance}</p>
               </div>{" "}
             </div>
           </div>

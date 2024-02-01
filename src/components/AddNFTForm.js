@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-const pinataApiKey = "613752335d9bc9eef6c8";
-const pinataSecretApiKey = "5f7ed7f24655581b7deef880b0f0e265c12231e01d1b47bc92d774ac834d40a3";
+const pinataApiKey = "7035b77a945e74f34e97";
+const pinataSecretApiKey = "e54eae9ea844f1053500a120b8c7cfd822ede8018035fb6e5af51351e9f54ca4";
 
 const AddNFTForm = ({ onAddNFT }) => {
   const [name, setName] = useState("");
@@ -9,7 +9,7 @@ const AddNFTForm = ({ onAddNFT }) => {
   const [pinataCID, setPinataCID] = useState("");
   const [isUploading, setIsUploading] = useState(false);
   const [imageFile, setImageFile] = useState(null);
-
+  
   const handleImageChange = async (e) => {
     try {
       setImageFile(e.target.files[0]);
