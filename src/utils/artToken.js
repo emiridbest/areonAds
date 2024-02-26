@@ -1,4 +1,4 @@
-export const areonTokenAddress = "0xe0457b819ff7b12c69bed004b01a93a7a08ad8a2"
+export const areonTokenAddress = "0xe0457B819ff7b12C69bEd004B01A93A7A08ad8A2"
 export const areonTokenABI = [
 	{
 		"inputs": [],
