@@ -1,6 +1,6 @@
 //export const IERC20 ="0xA11B61e3886b2749c566A34262E63915CFD03800"
 // export  const IERC721 ="0xf99cb3Bc6a652DAD49AD0cf3389910eeA658e567"
-export const AreonAds ="0x8f0dd57d6d7369a4c0459721ce3d10e122c10461"
+export const AreonAds ="0x8F0dd57d6d7369a4C0459721CE3D10E122c10461"
 
 export const contractABI = [
 	{
